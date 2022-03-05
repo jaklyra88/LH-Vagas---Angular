@@ -1,0 +1,31 @@
+
+<html>
+
+    
+    <body>
+
+        <div class="flex-container">
+        
+            <div class="caixa">
+            <h2 class="titulo">Excluir Vaga</h2><br>
+            <p>Informe o ID da vaga que deseja excluir: </p>
+       
+            <form class="formulario">
+                <label></label><br><input type="text" name="id" [(ngModel)]="vaga.id"><br> 
+                                
+                <button name="botao" type="button" (click)="excluir(vaga.id)">Excluir Vaga</button> 
+           
+            </form>
+
+        </div>
+        </div>
+    
+    </body>
+
+    
+    
+
+    
+
+
+</html>

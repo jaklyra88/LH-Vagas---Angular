@@ -1,0 +1,14 @@
+
+<div class="formulario">
+    <h2>Cadastrar</h2>
+    <form>
+        <label>Id</label><br><input type="text" name="id" [(ngModel)]="vaga.id"><br>
+        <label>Nome</label><br><input type="text" name="nome" [(ngModel)]="vaga.nome"><br>
+        <label>Foto</label><br><input type="text" name="foto" [(ngModel)]="vaga.foto"><br>
+        <label>Descrição</label><br><input type="text" name="descricao" [(ngModel)]="vaga.descricao"><br>
+        <label>Salário</label><br><input type="text" name="salario" [(ngModel)]="vaga.salario"><br>
+        <button type="button" (click)="atualizar(vaga.id)">Atualizar Vaga</button>
+        
+        
+    </form>
+    </div>

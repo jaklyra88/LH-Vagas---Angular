@@ -1,0 +1,27 @@
+
+.flex-container {
+    
+    height: 77vh;
+    align-items: stretch;
+    
+    
+    
+    
+  }
+
+  .formulario_excluir{
+    margin: 2px;
+    border: 2px;
+    
+    
+  }
+  
+  button{
+      margin: 2px;
+  }
+  
+  h2{
+      text-align: center;
+      margin: 4px;
+  }
+  

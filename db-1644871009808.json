@@ -1,0 +1,25 @@
+{
+  "vagas": [
+    {
+      "Id": 1,
+      "Nome": "Desenvolvimento Front End",
+      "Foto": "foto1.jpg",
+      "Descrição ": "Trabalhar com Angular",
+      "Salário": 5000
+    },
+    {
+      "Id": 2,
+      "Nome": "Desenvolvimento Front End",
+      "Foto": "foto2.jpg",
+      "Descrição ": "Trabalhar com Spring Boot",
+      "Salário": 7000
+    },
+    {
+      "Id": 3,
+      "Nome": "Desenvolvimento Fullstack Senior",
+      "Foto": "foto3.jpg",
+      "Descrição ": "Trabalhar com Angular e Spring Boot",
+      "Salário": 10000
+    }
+  ]
+}

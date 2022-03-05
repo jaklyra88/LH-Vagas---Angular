@@ -1,0 +1,44 @@
+.flex-container {
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 84vh;
+  width: auto;
+  
+  
+  
+}
+  
+.titulo{
+ 
+  display: flex;
+  align-items: center;
+  margin: 4px;
+ 
+}
+ 
+.caixa{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: 6px;
+  border: solid 1px;
+  border-radius: 20px;
+  padding: 10px;
+  
+}
+  
+.formulario{
+  display: flex;
+  flex-direction: column;
+   margin: 6px;
+ 
+}
+
+p{
+  margin: 6px;
+ 
+}

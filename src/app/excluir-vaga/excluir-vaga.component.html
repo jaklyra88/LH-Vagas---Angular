@@ -1,0 +1,44 @@
+
+<h2>Exclusão de Vagas Cadastradas</h2>
+
+<div class="flex-container">
+<div class="float-right">
+<div class="formulario_exc">
+
+    <div class="card-body">
+        <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Salário</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let vaga of vagas ">
+                <td>{{vaga.id}}</td>
+                <td>{{vaga.nome}}</td>
+                <td>{{vaga.descricao}}</td>
+                <td>{{vaga.salario}}</td>
+                    <span class="float-right">
+                         <button class="btn btn-outline-danger mb-1 btn-sm" [routerLink]="['/formulario_excluir']" [state]="{idVaga: vaga.id}" queryParamsHandling="preserve">Remover</button>  
+
+                            
+                       
+
+
+                        <!--  <button class="btn btn-outline-danger mb-1 btn-sm" (click)="excluir(vaga.id)">Remover</button>  -->
+                    </span>
+            </tr>  
+                    
+            
+        </tbody>
+    </table>
+
+    
+
+   </div>
+    </div>
+    </div>
+

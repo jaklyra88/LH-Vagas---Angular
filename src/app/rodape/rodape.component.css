@@ -1,0 +1,18 @@
+div{
+    align-content: center;
+    /* background-color: rgb(214, 214, 214); */
+    background-color: gray ;
+    opacity: 0.5;
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+
+p{
+    align-content: center;
+    color: black;
+    opacity: 1;
+
+}

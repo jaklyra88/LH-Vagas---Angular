@@ -1,0 +1,28 @@
+
+.flex-container {
+    
+    height: 77vh;
+    align-items: stretch;
+    opacity: 0.6;
+    
+    
+    
+    
+  }
+
+.formulario_alterar{
+    margin: 10px;
+    border: 10px;
+    border-radius: 10px;
+    
+  }
+  
+  button{
+      margin: 10px;
+  }
+  
+  h2{
+      text-align: center;
+      margin: 4px;
+  }
+  
