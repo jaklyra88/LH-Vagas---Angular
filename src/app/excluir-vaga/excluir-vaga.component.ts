@@ -56,7 +56,20 @@ export class ExcluirVagaComponent implements OnInit {
 
   }
 
- 
+  excluir(id: number): void{
+    this._vagasService.removerVaga(id).subscribe(() => {
+      this._vagasService.exibirMensagem(
+        'SISTEMA',
+        `${id} foi excluido com sucesso !!`,
+        'toast-error'
+
+      );
+    });
+
+    window.location.href = "/mural";
+  }  
+
+  
 
 
 }

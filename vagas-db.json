@@ -12,21 +12,23 @@
       "nome": "Desenvolvimento Front End",
       "foto": "foto2.jpg",
       "descricao ": "Trabalhar com Spring Boot",
-      "salario": 7000
+      "salario": 7000,
+      "descricao": "HTML e CSS"
     },
     {
       "id": 3,
       "nome": "Desenvolvimento Fullstack Senior",
       "foto": "foto3.jpg",
       "descricao ": "Trabalhar com Angular e Spring Boot",
-      "salario": 10000
+      "salario": 10000,
+      "descricao": "Desenvolver HTML, CSS, JS e SQL"
     },
     {
       "id": "4",
-      "nome": "Teste",
+      "nome": "Teste2",
       "foto": "foto1.jpg",
-      "descricao": "teste",
-      "salario": "2000"
+      "descricao": "teste3",
+      "salario": 2000
     }
   ]
 }

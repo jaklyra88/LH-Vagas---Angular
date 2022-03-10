@@ -24,20 +24,11 @@ export class AlterarVagaComponent implements OnInit {
   ngOnInit(): void {
 
      this.listarVagas();
+
+     
      
   }
-
-  /* atualizar(id: number){
-    this._vagasService.atualizarVaga(id, this.vaga).subscribe(
-      vaga => {this.vaga = new Vaga(0,"","","",0)},
-      err => {console.log("Erro ao Atualizar")}
-    );
-
-    window.location.href =  "/mural";
-  }  */
-
-   
-  
+ 
   
  
   listarVagas(){

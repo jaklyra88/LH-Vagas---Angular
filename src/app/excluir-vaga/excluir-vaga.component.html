@@ -22,13 +22,22 @@
                 <td>{{vaga.descricao}}</td>
                 <td>{{vaga.salario}}</td>
                     <span class="float-right">
-                         <button class="btn btn-outline-danger mb-1 btn-sm" [routerLink]="['/formulario_excluir']" [state]="{idVaga: vaga.id}" queryParamsHandling="preserve">Remover</button>  
+                         <button class="btn btn-outline-danger mb-1 btn-sm" 
+                         [swal]="{
+                             title: 'Atenção',
+                             text: 'Deseja realmente excluir a vaga ?',
+                             showDenyButton:true,
+                             denyButtonText: 'Não',
+                             confirmButtonText: 'Sim, excluir',
+                             icon: 'warning'
+                         }" (confirm)="excluir(vaga.id)"                 
+                         >Remover</button>  
 
                             
                        
 
 
-                        <!--  <button class="btn btn-outline-danger mb-1 btn-sm" (click)="excluir(vaga.id)">Remover</button>  -->
+                        
                     </span>
             </tr>  
                     

@@ -14,7 +14,13 @@ import { FormsModule } from '@angular/forms';
 import { AlterarVagaComponent } from './alterar-vaga/alterar-vaga.component';
 import { ExcluirVagaComponent } from './excluir-vaga/excluir-vaga.component';
 import { FormularioAlterarComponent } from './formulario-alterar/formulario-alterar.component';
-import { FormularioExcluirComponent } from './formulario-excluir/formulario-excluir.component';
+
+
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
+import { ToastrModule } from 'ngx-toastr';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
+
+
 
 
 @NgModule({
@@ -27,7 +33,7 @@ import { FormularioExcluirComponent } from './formulario-excluir/formulario-excl
     AlterarVagaComponent,
     ExcluirVagaComponent,
     FormularioAlterarComponent,
-    FormularioExcluirComponent
+   
 
     
   
@@ -37,7 +43,10 @@ import { FormularioExcluirComponent } from './formulario-excluir/formulario-excl
     HttpClientModule,
     RouterModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    SweetAlert2Module.forRoot(),
+    BrowserAnimationsModule,
+    ToastrModule.forRoot(),
     
   ],
   providers: [],
